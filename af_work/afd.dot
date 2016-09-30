@@ -1,0 +1,15 @@
+digraph AFD {
+	_nil1 [style="invis"];
+	_nil1 -> AB [label=""];
+	CE [peripheries=2];
+	BC -> C [label=0];
+	C -> D [label=1];
+	D -> CE [label=1];
+	C -> Error [label=0];
+	AB -> Error [label=1];
+	CE -> D [label=1];
+	AB -> BC [label=0];
+	D -> Error [label=0];
+	CE -> Error [label=0];
+	BC -> D [label=1];
+}

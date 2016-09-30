@@ -1,0 +1,11 @@
+Para chamar o script, basta fazer:
+
+python3 Main.py -n afn.dot -d afd.dot caso.afn caso.afd
+
+[-n afn.dot] Parâmetro Opcional. Nome do arquivo AFN.DOT.
+
+[-d afd.dot] Parâmetro Opcional. Nome do arquivo AFD.DOT.
+
+[caso.afn] Parâmetro Obrigatório. Nome do arquivo CASO.AFN
+
+[caso.afd] Parâmetro Obrigatório. Nome do arquivo CASO.AFD

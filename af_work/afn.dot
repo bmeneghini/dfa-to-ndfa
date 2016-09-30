@@ -1,0 +1,12 @@
+digraph "AFN" {
+	_nil1 [style="invis"];
+	_nil1 -> A [label=""];
+	_nil2 [style="invis"];
+	_nil2 -> B [label=""];
+	E [peripheries=2];
+	D -> C [label=1];
+	D -> E [label=1];
+	C -> D [label=1];
+	A -> B [label=0];
+	B -> C [label=0];
+}

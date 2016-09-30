@@ -1,0 +1,17 @@
+E: AB, BC, C, Error, D, CE.
+A: 0, 1,.
+T:
+	BC[0] := {C},
+	C[1] := {D},
+	D[1] := {CE},
+	C[0] := {Error},
+	AB[1] := {Error},
+	CE[1] := {D},
+	AB[0] := {BC},
+	D[0] := {Error},
+	CE[0] := {Error},
+	BC[1] := {D},
+	Error[0] := {Error},
+	Error[1] := {Error}.
+I: AB.
+F: CE.
